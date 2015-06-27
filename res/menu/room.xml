@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.matrix.client.android.MainActivity"
+>
+	<item
+		android:id="@+id/menu_user_list"
+		android:icon="@drawable/ic_menu_allfriends"
+		android:title="@string/user_list"
+		android:showAsAction="ifRoom"/>
+	<item
+		android:id="@+id/menu_join_room"
+		android:icon="@drawable/ic_menu_add"
+		android:title="@string/join_room"
+		android:showAsAction="ifRoom"/>
+	<item
+		android:id="@+id/menu_invite"
+		android:icon="@drawable/ic_menu_invite"
+		android:title="@string/invite_user"
+		android:showAsAction="ifRoom"/>
+	<item
+		android:id="@+id/action_screenshot"
+		android:icon="@drawable/ic_menu_gallery"
+		android:title="@string/screenshot" />
+	<item
+	  android:id="@+id/action_settings"
+	  android:title="@string/settings"
+	  android:showAsAction="never" />
+	<item
+	  android:id="@+id/action_logout"
+	  android:title="@string/logout" />
+	<item
+		android:id="@+id/action_exit"
+		android:title="@string/exit" />
+</menu>
+

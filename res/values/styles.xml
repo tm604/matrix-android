@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme" parent="android:Theme.Holo.Light">
+    <item name="android:icon">@drawable/logo</item>
+	<item name="android:displayOptions">homeAsUp|showHome</item>
+  </style>
+</resources>
+

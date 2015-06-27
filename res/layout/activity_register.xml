@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+	<RelativeLayout
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@+drawable/logo"
+			android:id="@+id/matrix_logo"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:layout_gravity="center_horizontal"
+			android:gravity="center_horizontal"
+			android:textColor="#111111"
+		/>
+		<EditText
+			android:layout_width="240dp"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="username"
+			android:id="@+id/login_name"
+			android:layout_below="@+id/matrix_logo"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="48dp"
+			android:textColor="#111111"
+		/>
+		<EditText
+			android:layout_width="240dp"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="password"
+			android:id="@+id/password"
+			android:layout_gravity="center_horizontal"
+			android:layout_below="@+id/login_name"
+			android:textColor="#111111"
+		/>
+		<EditText
+			android:layout_width="240dp"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="confirm password"
+			android:id="@+id/confirm_password"
+			android:layout_gravity="center_horizontal"
+			android:layout_below="@+id/password"
+			android:textColor="#111111"
+		/>
+		<EditText
+			android:layout_width="240dp"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="display name"
+			android:id="@+id/display_name"
+			android:layout_gravity="center_horizontal"
+			android:layout_below="@+id/confirm_password"
+			android:textColor="#111111"
+		/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="OK"
+			android:id="@+id/submit"
+			android:layout_centerHorizontal="true"
+			android:layout_gravity="center_horizontal"
+			android:layout_below="@+id/display_name"
+			android:layout_marginTop="48dp"
+		/>
+	</RelativeLayout>
+</FrameLayout>
